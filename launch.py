@@ -25,6 +25,7 @@ start = launch_utils.start
 
 
 def main():
+    print("launch.py main begin:")
     if args.dump_sysinfo:
         filename = launch_utils.dump_sysinfo()
 
